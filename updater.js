@@ -37,10 +37,10 @@ autoUpdater.on('update-downloaded', function (info) {
 
 function checkForUpdates(){
     const data = {
-        'provider': 'github',
-        'owner':    'AmonDeveloper',
-        'repo':     'AssitentePessoal',
-        'token':    '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'
+        'provider': 'xxx',
+        'owner':    'xxx',
+        'repo':     'xxx',
+        'token':    'xxx'
       };
     autoUpdater.setFeedURL(data);
     autoUpdater.checkForUpdates();
